@@ -3,8 +3,8 @@
 import os
 from datetime import datetime, timedelta
 
-# Uncomment the follpowing 2 lines if you are running this bot on a VPS.
-#import matplotlib
+# Uncomment the following 2 lines if you are running this bot on a VPS.
+# import matplotlib
 # matplotlib.use("agg")
 
 import matplotlib.pyplot as plt
@@ -102,7 +102,7 @@ def init_bot():
 
 if __name__ == "__main__":
 
-    # Feel free to remove the timedelta part if you are not in the CST timezone.
+    # Feel free to remove the timedelta part if you are in the CST timezone.
     NOW = datetime.now() - timedelta(hours=5)
 
     create_folder("figs")
